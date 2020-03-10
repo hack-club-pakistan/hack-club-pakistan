@@ -1,0 +1,74 @@
+
+.main1{
+display: block;
+margin-top: 100px;
+background-color: rgb(249, 249, 250);
+
+
+}
+
+.main2{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+
+}
+.hack-club{
+display: grid;
+grid-template-columns:auto;
+    text-align: left;
+    box-sizing: border-box;
+}
+.resources{
+  display: grid;
+  grid-template-columns:auto;
+
+}
+.the-club{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+
+
+}
+#hack-club-sub{
+  color: rgb(96, 110, 119);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  line-height: 35px;
+  margin-top: 0px;
+}
+.icons{
+  color: rgb(96, 110, 119);
+  line-height: 35px;
+  display: flex;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+  margin-right: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 12rem;
+  box-align: center;
+}
+p {
+  font-size: 15px;
+  margin: 1px;
+}
+#logo {
+  width: 32px;
+    height: 32px;
+    flex: 0 0 auto;
+    stroke-linejoin: round;
+    stroke-miterlimit: 1.414;
+    margin-bottom: 8px;
+    margin-right: 12px;
+    color: rgb(122, 140, 151);
+
+}
+.address{
+  display: block;
+  box-sizing: border-box;
+  margin-top: 60px;
+}
